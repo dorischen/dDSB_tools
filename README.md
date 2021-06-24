@@ -10,9 +10,9 @@ They consist of five major sections:
 4.  **DEFAULTS**
 5.  **FUNCTION**
 
-Users only need to install the packages (libraries, 1) and sub-functions (2) once per session. Script options are changed in the “USER INPUT” part (3); each time changes are made, this part needs to be run before executing the default settings (4) and the function (5). Default settings contain e.g. output file suffixes or genome data details.
+Users need to install the packages (libraries, 1) and run the sub-functions (2) only once per session. Script options are changed in the “USER INPUT” part (3); each time changes are made, this part needs to be run before executing the default settings (4) and the function (5). Default settings contain e.g. output file suffixes or genome data details.
 
-It is highly recommended to use *RStudio* (https://www.rstudio.com/) to execute these scripts. Sample data displaying the required input formats are provided (and referred to in section 3). Please note that these scripts were originally highly customised to the purposes of the published analyses and will be updated for more general use in future. Moreover, scripts for creating certain data visualisations (like arc plots, profile plus annotation plots) are being converted into more generic versions and will potentially be published as R package.
+It is highly recommended to use *RStudio* (https://www.rstudio.com/) to execute these scripts. Sample data displaying the required input formats are provided (and referred to in section 3). Please note that these scripts were originally highly customised to the purposes of the published analyses and will be updated for more general use in future. Furthermore, scripts for creating certain data visualisations (like arc plots, profile plus annotation plots) are being converted into more generic versions and will potentially be published as R package.
 
 For further questions, requests or comments please contact Doris Chen, doris.chen@univie.ac.at.
 
