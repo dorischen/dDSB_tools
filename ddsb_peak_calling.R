@@ -1,4 +1,8 @@
-### Peak - valley predictions, optimized for (periodic) dDSB length distributions
+### ddsb_peak_calling.R
+### Simple peak calling algorithm for curves with peaks and valleys. Including graphical output for validation and optimization of input parameters 
+### Authors: Doris Chen, Franz Klein
+### Version 200228
+
 
 ## PACKAGES
 library(stringr)
@@ -272,8 +276,8 @@ move_file <- function(from, to)
 
 
 ## USER INPUT
-# length distribution tables
-workingDirIND <- "input_data/tables"
+# tables with curve information, e.g. histogram, length distribution
+workingDirIND <- "input_data/length_distribution"
 filePatternD <- "_countsAll.txt"
 sampleIdIndex <- 1
 

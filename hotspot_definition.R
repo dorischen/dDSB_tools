@@ -1,4 +1,7 @@
-### Definition of DSB hotspots and highest peaks according to Pan et al. parameters
+### Definition of DSB hotspots and their top peak
+### Input: dpp files
+### Authors: Doris Chen, Franz Klein
+### Version: 201221
 
 ## PACKAGES
 library(data.table)
