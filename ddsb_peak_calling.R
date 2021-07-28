@@ -338,7 +338,7 @@ valleyColor <- add_alpha(valleyColor0, 0.3*255)   # make transparent
 
 
 
-## SCRIPT
+## FUNCTION
 # get input file name(s)
 setwd(workingDirIND)
 fileListD <- list.files(pattern=filePatternD) 

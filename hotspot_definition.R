@@ -1,3 +1,4 @@
+### hotspot_definition.R
 ### Definition of DSB hotspots and their top peak
 ### Input: dpp files
 ### Authors: Doris Chen, Franz Klein
@@ -121,7 +122,7 @@ if(genome=="spombe")
 
 
 
-## SCRIPT
+## FUNCTION
 setwd(workingDirIND)
 fileListD <- list.files(pattern=filePatternD) 
 print(fileListD)
