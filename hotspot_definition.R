@@ -1,4 +1,8 @@
-### Definition of DSB hotspots and highest peaks according to Pan et al. parameters
+### hotspot_definition.R
+### Definition of DSB hotspots and their top peak
+### Input: dpp files
+### Authors: Doris Chen, Franz Klein
+### Version: 201221
 
 ## PACKAGES
 library(data.table)
@@ -118,7 +122,7 @@ if(genome=="spombe")
 
 
 
-## SCRIPT
+## FUNCTION
 setwd(workingDirIND)
 fileListD <- list.files(pattern=filePatternD) 
 print(fileListD)
